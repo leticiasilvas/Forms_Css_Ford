@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+
+    <link rel="stylesheet" href="style.css">
+     
+</head>
+<body>
+
+    <header>
+        <h1>
+            Página de criação de formulários
+            <br><br>
+        </h1>
+    </header>
+    
+    <!--Primeiro formulário usando label e input-->
+    <form class="form01">
+        <label for="">Nome</label>
+        <input type="text" name="Nome01" id="" placeholder="digite seu nome"><br>
+        <label for="sobrenome">Sobrenome</label>
+        <input type="text" name="Nome02" id="" placeholder="digite seu Sobrenome"><br><br>
+    </form> 
+    
+    <!--Forme para realizar o cadastro de uma pessoa-->
+
+    <form class="form02">
+        <label for="primeiro nome">Nome</label>
+        <input type="text" name="nomeUser" id="" placeholder="Informe seu primeiro nome..."><br>
+        <label for="segundo nome">Segundo Nome</label>
+        <input type="text" name="nomeUser" id="" placeholder="Informe seu sobrenome..."><br>
+        <label for="email">E-mail</label>
+        <input for="email" name="emailUser" id="" placeholder="Informe o seu melhor email..."><br>
+        <label for="idade">Data de nascimento</label>
+        <input type="date" name="idade do usuário"><br>
+        <h4>Informe o seu genero</h4><br>
+        <input type="radio" name="" id="">
+        <label for="genero">Masculino</label>
+        <input type="radio" name="feminino" id="">
+        <label for="genero">Feminino</label>
+        <br>
+        <label for="comentario">Comentário</label><br>
+        <textarea name="" id="" cols="60" rows="10" placeholder="Descreva sobre você"></textarea><br><br>
+        <button type="submit" onclick="cliqueAqui()">Cadastra-se</button>
+    </form>
+
+    <script>
+        function cliqueAqui() {
+            alert("Usuário cadastrado com sucesso!")
+        }
+    </script>
+    
+</body>
+</html>
